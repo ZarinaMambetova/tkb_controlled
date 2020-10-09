@@ -121,8 +121,12 @@ h1 {
       letter-spacing: 1px;
       
      }
+     @media (max-width: 500px) {
+      font-size: 30px;
+       
+     }
      @media (max-width: 350px) {
-      font-size: 20px;
+      font-size: 25px;
      }
 }
 
@@ -136,7 +140,7 @@ h2 {
     font-size: 30px;
    }
    @media (max-width: 450px) {
-    font-size: 20px;
+    font-size: 25px;
    }
 }
 
@@ -174,6 +178,3 @@ margin-top: 21px;
 
 .map__icon .cls-2 {fill:none;}
 
-.main__buttons {
-  margin-bottom: 50px;
-}
