@@ -11,7 +11,7 @@ const  autoprefixer = require('gulp-autoprefixer'); // Подключаем па
 const cleanCSS = require('gulp-clean-css'); // Подключили пакет: для минимизации файла стилей. Установка:  npm install gulp-clean-css --save-dev
 const sourcemaps = require('gulp-sourcemaps'); // Подключили пакет: для карты файлов в панели разработчика. Установка: npm i gulp-sourcemaps --save-dev
 
-const px2rem = require('gulp-px-to-rem'); // Переводит в ремы пиксели для адаптива. Установка:  npm i --save-dev  gulp-smile-px2rem
+const px2rem = require('gulp-smile-px2rem'); // Переводит в ремы пиксели для адаптива. Установка:  npm i --save-dev  gulp-smile-px2rem
 const gcmq = require('gulp-group-css-media-queries'); // Подключили пакет: группировка медиа-запросов для минимизации файла стилей. Установка: npm install --save-dev gulp-group-css-media-queries
 
 const babel = require('gulp-babel'); // Подключили пакет: преобразовываем js-код для старых браузеров. Установка:  npm i gulp-sourcemaps --save-dev
