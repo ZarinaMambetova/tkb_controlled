@@ -6,7 +6,9 @@ justify-content: center;
 
 .main {
   margin: 157px 0 54px 0;
-
+  @media (max-width: 110px) {
+    margin: 130px 0 54px 0;
+   }
 }
 
 .info__list {
