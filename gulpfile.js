@@ -77,7 +77,13 @@ task( 'styles', () => {
     .pipe(concat('main.min.scss'))
     .pipe(sassGlob())
     .pipe(sass().on('error', sass.logError))
-    .pipe(px2rem()) // раскомментить перед build
+    .pipe(px2rem(
+      {
+        dpr: 1,             // base device pixel ratio (default: 2)
+        rem: 16,            // root element (html) font-size (default: 16)
+        one: false          // whether convert 1px to rem (default: false)
+      }
+    )) // раскомментить перед build
     .pipe(gulpif(env === "dev", autoprefixer({cascade: false})))
     .pipe(gulpif(env === "prod", gcmq()))
     .pipe(gulpif(env === "prod", cleanCSS({compatibility: 'ie8'})))
