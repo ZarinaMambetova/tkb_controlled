@@ -35,6 +35,10 @@
   @media (max-width: 1100px) {
     font-size: 24px;
    }
+   @media (max-width: 450px) {
+
+    flex-direction: column;
+   }
 }
 
 .about__item {
@@ -62,7 +66,11 @@
   top: -6px;
   left: -20px;
   background: #03adaa;
+    @media (max-width: 450px) {
+    top: -15px;
+   }
 }
 .about__item:first-child span:after {
   display: none;
+
 }

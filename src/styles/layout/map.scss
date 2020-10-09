@@ -26,8 +26,8 @@
   margin-top: 15px;
   font-size: 22px;
   font-family: 'Corpid E1s SCd normal';
-  @media (max-width: 1100px) {
-    font-size: 34px;
+  @media (max-width: 320px) {
+    font-size: 16px;
    }
 }
 
@@ -54,6 +54,15 @@ flex-direction: column;
   transform: translateY(-50%);
   background-repeat: no-repeat;
   background-size: contain;
+  @media (max-width: 700px) {
+    left: 39%;
+   }
+   @media (max-width: 530px) {
+    left: 35%;
+   }
+   @media (max-width: 400px) {
+    left: 31%;
+   }
 }
 
 .map__item:last-child .map__text:after {
@@ -87,4 +96,7 @@ flex-direction: column;
   margin-left: 20px;
   font-size: 21px;
   color: black;
+  @media (max-width: 400px) {
+    font-size: 16px;
+   }
 }

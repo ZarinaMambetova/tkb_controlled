@@ -22,6 +22,9 @@ justify-content: center;
 
 .info__text {
   font-size: 28px;
+  @media (max-width: 450px) {
+    font-size: 15px;
+   }
 }
 
 .info__icon {
