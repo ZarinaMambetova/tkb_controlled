@@ -1,0 +1,61 @@
+.section_order {
+  background-color: #646569;
+}
+
+.form {
+  max-width: 435px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+input {
+  width: 78%;
+  padding: 15px 20px;
+  font-size: 18px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  color: #000;
+  outline: 0;
+  border: 2px solid #fff;
+  &:hover,
+  &:focus {
+    border: 2px solid #005598;
+    transition: 0.5s;
+  }
+  @media (max-width: 1100px) {
+    width: 120%;
+    font-size: 20px;
+   }
+}
+
+//меняем цвет placeholder
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #b8b9bb;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #b8b9bb;
+}
+input::-ms-input-placeholder,
+textarea::-ms-input-placeholder {
+  color: #b8b9bb;
+}
+input::placeholder,
+textarea::placeholder {
+  color: #b8b9bb;
+}
+
+.form__text {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.form__rules {
+margin: 9px 0;
+}
+

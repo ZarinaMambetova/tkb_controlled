@@ -1,0 +1,88 @@
+.button {
+  color: #ffffff;
+  font-size: 22px;
+  background-color: #00afaa;
+  border-radius: 30px;
+  text-align: center;
+  text-decoration: none;
+  transition: .4s;
+  padding: 17px 45px;
+  border: none;
+  font-family: 'Corpid E1s SCd normal';
+ 
+  @media (max-width: 1400px) {
+    padding: 17px 35px;
+   }
+
+   @media (max-width: 1200px) {
+    padding: 17px 25px;
+
+   }
+   @media (max-width: 1100px) {
+    padding: 20px 45px;
+    font-size: 30px;
+   }
+
+}
+
+.button_green {
+  margin-right: 32px;
+  @media (max-width: 1600px) {
+    margin-right: 20px;
+   }
+
+   @media (max-width: 1470px) {
+    margin: 0 0  20px 0;
+
+    
+   }
+
+   @media (max-width: 1300px) {
+    margin: 0 0  20px 0;
+   }
+
+}
+
+.main__buttons {
+  display: flex;
+  align-items: center;
+  @media (max-width: 1470px) {
+   flex-direction: column;
+
+   }
+}
+.button_green:hover {
+  background-color: #03817d;
+}
+
+.button_white {
+  background-color: #fff;
+  border: 1px solid #00afaa;
+  color:#00afaa;
+  padding: 17px 45px;
+
+  &:hover {
+    padding: 17px 50px;
+    color: #03817d;
+    border: 1px solid #03817d;
+    transition: padding .5s ease;
+  }
+}
+
+.button_blue {
+  background-color: #005598;
+  color: #fff;
+  width: 57%;
+  &:hover {
+    width: 70%;
+  transition:  .5s ease;
+  }
+  @media (max-width: 1100px) {
+    padding: 17px 45px;
+    width: 80%;
+    &:hover {
+      width: 90%;
+    transition:  .5s ease;
+    }
+  }
+}

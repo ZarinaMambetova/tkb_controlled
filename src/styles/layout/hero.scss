@@ -1,0 +1,47 @@
+.hero__container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.main {
+  margin: 157px 0 54px 0;
+
+}
+
+.info__list {
+  margin: 0 0 106px 7px;
+}
+
+
+.info__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 21px;
+}
+
+.info__text {
+  font-size: 28px;
+}
+
+.info__icon {
+  margin-right: 22px;
+  width: 38px;
+  height: 38px;
+}
+
+.arrow-scroll {
+  text-align: center;
+}
+
+.arrow-scroll__link {
+width: 100%;
+height: 100%;
+}
+
+.arrow-scroll__icon {
+  width: 150px;
+  height: 150px;
+}
+
+
